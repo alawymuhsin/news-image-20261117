@@ -32,6 +32,13 @@ Run it locally:
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
+## Verification
+
+The image is a fixed file, so the program's output is fully reproducible. Two local runs were compared byte for byte and produced identical output, and the written file matches the repository copy:
+
+- `entry.png` sha256: `346dd1000fc6d5f8b2397981fe9e3335c669674376c472f1b8d430ec801bcd5e`
+- Run 1 and run 2: identical bytes, both equal to `entry.png` above.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
